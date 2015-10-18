@@ -35,7 +35,7 @@ void setup () {
   r=640;
 
 
-  x=200;
+  x=40;
   y=floor(random(50, 540));
   z=floor(random(50, 440));
   q=floor(random(50, 440));
@@ -165,7 +165,7 @@ void draw() {
     image(Img6, 0, 0);
     if (mousePressed){
       gameState = GAME_RUN;
-      x=200;
+      x=40;
       l=580;
       p=240;}
       
