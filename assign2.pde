@@ -153,7 +153,7 @@ void draw() {
    if(q<p){q+=2;};
    if(q>p){q-=2;};
    
-   if(x<40){
+   if(x<20){
    gameState = GAME_END;}
 
     break;
