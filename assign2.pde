@@ -136,13 +136,13 @@ void draw() {
    
    
    
-   if(l>m-30 && l<m+30 && p>q-30 && p<q+30){
+   if(l>m-45 && l<m+45 && p>q-45 && p<q+45){
    x=x-40;
    m=-20;
    m++;
    q=floor(random(50, 440));}
    
-   if(l>y-30 && l<y+30 && p>z-30 && p<z+30){
+   if(l>y-45 && l<y+45 && p>z-45 && p<z+45){
    x=x+20;
    y=floor(random(50, 540));
    z=floor(random(50, 440));
